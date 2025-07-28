@@ -5,7 +5,7 @@ class Solution {
 
         if(nLen == 0) return 0;
 
-        for(int i = 0; i < hLen - nLen; i++){
+        for(int i = 0; i <= hLen - nLen; i++){
             if(haystack.substring(i, i + nLen).equals(needle)) return i;
         }
 
